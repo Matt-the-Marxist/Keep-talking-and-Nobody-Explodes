@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+	background-color: grey;
+	min-height: 49em;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+	height:5em;
+	width: 100%;
+}
+
+.upperContainer{
+	height:3.5em;
+}
+
+.middleContainer{
+	height:36em;
+	width: 85%;
+}
+
+.mainContent{
+	background-color: white;
+	height: 35em;
+	width: 100%;
+	border: 0.5em solid grey;
+	border-radius: .5em;
+	margin-left: 7em;
+	transition: 0.25s;
+}
+
+
+
+

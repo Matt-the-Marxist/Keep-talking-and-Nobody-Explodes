@@ -1,0 +1,108 @@
+/*Top options*/
+
+.upperContainer{
+	position: relative;
+}
+.lowerContainer{
+	position: relative;
+}
+
+.navOp{
+	position: absolute;
+	bottom: 0;
+	height: 1.25em;
+	width: 6em;
+	background-color: white;
+	border: 0.5em solid;
+	border-bottom: none;
+	border-radius: .5em .5em 0em 0em;
+	transition: .25s;
+	z-index: 1;
+}
+.navOp.selected{
+	height: 3.5em;
+	bottom: -0.5em;
+}
+.navOp:hover{
+	height: 2.25em;
+}
+.navOp.selected:hover{
+	/*to negate the other hover*/
+	height: 3.5em;
+}
+
+.opText{
+	text-align: center;
+	user-select: none;
+	transition: .25s;
+	font-size: .85em;
+}
+
+.navOp:hover .opText{
+	font-size: 1em;
+}
+
+.navOp.selected .opText{
+	font-size: 1.25em;
+}
+
+.navOp.down{
+	height: 1em;
+}
+.navOp.down:hover{
+	height: 2em;
+}
+
+.navOp.down .opText{
+	display: none;
+}
+.navOp.down:hover .opText{
+	display: inherit;
+	font-size: 1em;
+}
+
+.op1{
+	margin-left: 8em;
+	border-color: #8b4513;
+}
+.op2{
+	margin-left: 15.2em;
+	border-color: #008000;
+}
+.op3{
+	margin-left: 22.4em;
+	border-color: #4682b4;
+}
+.op4{
+	margin-left: 29.6em;
+	border-color: #4b0082;
+}
+.op5{
+	margin-left: 36.8em;
+	border-color: #ff0000;
+}
+.op6{
+	margin-left: 44em;
+	border-color: #ffff00;
+}
+.op7{
+	margin-left: 51.2em;
+	border-color: #00ff00;
+}
+.op8{
+	margin-left: 58.4em;
+	border-color: #00ffff;
+}
+.op9{
+	margin-left: 65.6em;
+	border-color: #0000ff;
+}
+.op10{
+	margin-left: 72.8em;
+	border-color: #eee8aa;
+}
+.op11{
+	margin-left: 80em;
+	border-color: #ff1493;
+}
+
